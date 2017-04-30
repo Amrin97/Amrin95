@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<library>
+    <customer id="014">
+        <title>Mr</title>
+        <firstName>Rustam</firstName>
+        <lastName>Bek</lastName>
+        <middleName>Muha</middleName>
+        <dateOfBirth>12.08.1990</dateOfBirth>
+        <age>26</age>
+        <gender>M</gender>
+        <libraryAccount>
+            <loginName>mekbek74</loginName>
+            <password>123GHUd</password>
+            <type>Regular</type>
+            <discount>0</discount>
+        </libraryAccount>
+        <studentID>213456</studentID>
+        <university>CULS</university>
+        <libraryServices>
+            <wifi>Yes</wifi>
+            <privateRoom>No</privateRoom>
+            <afterHoursStudyRoom>Yes</afterHoursStudyRoom>
+            <newsletter>
+                <email>Yes</email>
+                <sms>No</sms>
+            </newsletter>
+        </libraryServices>
+        <address>
+            <country>Czech Republic</country>
+            <city>Prague</city>
+            <street>Zemedelska</street>
+            <number>542/20</number>
+            <flat>104</flat>
+            <zip>12000</zip>
+        </address>
+        <contactInfo>
+            <email type="private">bekrus@gmail.com</email>
+            <email type="library">bekrus@ntk.cz</email>
+            <phoneNumber type="mobile">890567234</phoneNumber>
+            <phoneNumber type="work">123123123</phoneNumber>
+        </contactInfo>
+        <books>
+            <book>
+                <title>How to everything</title>
+                <author>R. Kioksjare</author>
+                <ISBN>8989898989898</ISBN>
+                <libraryID>678GHT</libraryID>
+                <genre>Social</genre>
+                <year>2013</year>
+                <publisher>Book'n'Readers</publisher>
+                <language>English</language>
+                <dateOfPickUp>12.10.2014</dateOfPickUp>
+                <dateOfReturn>12.11.2014</dateOfReturn>
+                <fee>Yes</fee>
+            </book>
+        </books>
+    </customer>
+    
+    <customer id="002">
+        <title>Mr</title>
+        <firstName>Alexander</firstName>
+        <lastName>Bakar</lastName>
+        <middleName>Beka</middleName>
+        <dateOfBirth>11.06.1996</dateOfBirth>
+        <age>20</age>
+        <gender>M</gender>
+        <libraryAccount>
+            <loginName>alexei</loginName>
+            <password>435891</password>
+            <type>Reduced</type>
+            <discount>10</discount>
+        </libraryAccount>
+        <studentID>809234</studentID>
+        <university>CVUT</university>
+        <libraryServices>
+            <wifi>Yes</wifi>
+            <privateRoom>No</privateRoom>
+            <afterHoursStudyRoom>Yes</afterHoursStudyRoom>
+            <newsletter>
+                <email>Yes</email>
+                <sms>No</sms>
+            </newsletter>
+        </libraryServices>
+        <address>
+            <country>Czech Republic</country>
+            <city>Prague</city>
+            <street>Kamycka</street>
+            <number>156/20</number>
+            <flat>104</flat>
+            <zip>12000</zip>
+        </address>
+        <contactInfo>
+            <email type="private">alexei@gmail.com</email>
+            <email type="library">alexei@ntk.cz</email>
+            <phoneNumber type="mobile">890345678</phoneNumber>
+            <phoneNumber type="work">123456876</phoneNumber>
+        </contactInfo>
+        <books>
+            <book>
+                <title>University Universe</title>
+                <author>K. Iokekjer</author>
+                <ISBN>0987652345671</ISBN>
+                <libraryID>0293843</libraryID>
+                <genre>Social</genre>
+                <year>2014</year>
+                <publisher>Book'n'Readers</publisher>
+                <language>Polish</language>
+                <dateOfPickUp>11.08.2013</dateOfPickUp>
+                <dateOfReturn>12.11.2013</dateOfReturn>
+                <fee>Yes</fee>
+            </book>
+        </books>
+    </customer>
+    
+    <customer id="025">
+        <title>Mr</title>
+        <firstName>Vadim</firstName>
+        <lastName>Dima</lastName>
+        <middleName>Pisin</middleName>
+        <dateOfBirth>12.08.1988</dateOfBirth>
+        <age>28</age>
+        <gender>M</gender>
+        <libraryAccount>
+            <loginName>vadimpisin</loginName>
+            <password>456hjei</password>
+            <type>Regular</type>
+            <discount>0</discount>
+        </libraryAccount>
+        <studentID>234089</studentID>
+        <university>CULS</university>
+        <libraryServices>
+            <wifi>Yes</wifi>
+            <privateRoom>Yes</privateRoom>
+            <afterHoursStudyRoom>Yes</afterHoursStudyRoom>
+            <newsletter>
+                <email>Yes</email>
+                <sms>Yes</sms>
+            </newsletter>
+        </libraryServices>
+        <address>
+            <country>Czech Republic</country>
+            <city>Prague</city>
+            <street>Thakurova</street>
+            <number>550/1</number>
+            <flat>106A</flat>
+            <zip>16000</zip>
+        </address>
+        <contactInfo>
+            <email type="private">pisindim@gmail.com</email>
+            <email type="library">pisindim@ntk.cz</email>
+            <phoneNumber type="mobile">789456234</phoneNumber>
+            <phoneNumber type="work">123456828</phoneNumber>
+        </contactInfo>
+        <books>
+            <book>
+                <title>Good names of good people</title>
+                <author>V.K. Phasebukov</author>
+                <ISBN>123409856743829</ISBN>
+                <libraryID>28023498</libraryID>
+                <genre>Sci-Fi</genre>
+                <year>2013</year>
+                <publisher>Readers Digest</publisher>
+                <language>Russian</language>
+                <dateOfPickUp>12.10.2014</dateOfPickUp>
+                <dateOfReturn>12.11.2014</dateOfReturn>
+                <fee>No</fee>
+            </book>
+        </books>
+    </customer>
+    
+    <customer id="037">
+        <title>Ms</title>
+        <firstName>Angela</firstName>
+        <lastName>Lika</lastName>
+        <middleName>Gross</middleName>
+        <dateOfBirth>19.08.1994</dateOfBirth>
+        <age>22</age>
+        <gender>F</gender>
+        <libraryAccount>
+            <loginName>angie12</loginName>
+            <password>0921jdk</password>
+            <type>Research</type>
+            <discount>5</discount>
+        </libraryAccount>
+        <studentID>148039</studentID>
+        <university>CVUT</university>
+        <libraryServices>
+            <wifi>Yes</wifi>
+            <privateRoom>Yes</privateRoom>
+            <afterHoursStudyRoom>Yes</afterHoursStudyRoom>
+            <newsletter>
+                <email>No</email>
+                <sms>Yes</sms>
+            </newsletter>
+        </libraryServices>
+        <address>
+            <country>Czech Republic</country>
+            <city>Prague</city>
+            <street>Thakurova</street>
+            <number>542/20</number>
+            <flat>104</flat>
+            <zip>16000</zip>
+        </address>
+        <contactInfo>
+            <email type="private">angie112@gmail.com</email>
+            <email type="library">angie12@ntk.cz</email>
+            <phoneNumber type="mobile">456890123</phoneNumber>
+            <phoneNumber type="work">348120572</phoneNumber>
+        </contactInfo>
+        <books>
+            <book>
+                <title>Physical illusion</title>
+                <author>J.J. Jayjeev</author>
+                <ISBN>8382724940103</ISBN>
+                <libraryID>18032YU</libraryID>
+                <genre>Science</genre>
+                <year>2015</year>
+                <publisher>Korean House</publisher>
+                <language>Korean</language>
+                <dateOfPickUp>11.10.2015</dateOfPickUp>
+                <dateOfReturn>11.11.2015</dateOfReturn>
+                <fee>No</fee>
+            </book>
+        </books>
+    </customer>
+    
+      <customer id="007">
+        <title>Mr</title>
+        <firstName>James</firstName>
+        <lastName>Bond</lastName>
+        <middleName>Spy</middleName>
+        <dateOfBirth>12.08.1999</dateOfBirth>
+        <age>17</age>
+        <gender>M</gender>
+        <libraryAccount>
+            <loginName>james007</loginName>
+            <password>bondjamesbond</password>
+            <type>Research</type>
+            <discount>30</discount>
+        </libraryAccount>
+        <studentID>123349</studentID>
+        <university>UK</university>
+        <libraryServices>
+            <wifi>Yes</wifi>
+            <privateRoom>Yes</privateRoom>
+            <afterHoursStudyRoom>Yes</afterHoursStudyRoom>
+            <newsletter>
+                <email>Yes</email>
+                <sms>No</sms>
+            </newsletter>
+        </libraryServices>
+        <address>
+            <country>Czech Republic</country>
+            <city>Prague</city>
+            <street>Londynska</street>
+            <number>007/007</number>
+            <flat>007</flat>
+            <zip>007007</zip>
+        </address>
+        <contactInfo>
+            <email type="private">agentbond@gmail.com</email>
+            <email type="library">agentbond@ntk.cz</email>
+            <phoneNumber type="mobile">485007401</phoneNumber>
+            <phoneNumber type="work">123007484</phoneNumber>
+        </contactInfo>
+        <books>
+            <book>
+                <title>Get noticed by people</title>
+                <author>K.J. Jameson</author>
+                <ISBN>2727363629291</ISBN>
+                <libraryID>29348TY</libraryID>
+                <genre>Social</genre>
+                <year>2013</year>
+                <publisher>London Pub.</publisher>
+                <language>English</language>
+                <dateOfPickUp>12.10.2014</dateOfPickUp>
+                <dateOfReturn>12.11.2014</dateOfReturn>
+                <fee>Yes</fee>
+            </book>
+        </books>
+    </customer>    
+</library>

@@ -1,0 +1,117 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="library">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="customer" maxOccurs="unbounded" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="title"/>
+              <xs:element type="xs:string" name="firstName"/>
+              <xs:element type="xs:string" name="lastName"/>
+              <xs:element type="xs:string" name="middleName"/>
+              <xs:element type="xs:string" name="dateOfBirth"/>
+              <xs:element name="age">
+                <xs:simpleType>
+                            <xs:restriction base="xs:short">
+                                <xs:minInclusive value="1" />
+                                <xs:maxInclusive value="200" />
+                            </xs:restriction>
+                        </xs:simpleType>
+              </xs:element>
+              <xs:element type="xs:string" name="gender"/>
+              <xs:element name="libraryAccount">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="loginName"/>
+                    <xs:element type="xs:string" name="password"/>
+                    <xs:element type="xs:string" name="type"/>
+                    <xs:element type="xs:byte" name="discount"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element type="xs:int" name="studentID"/>
+              <xs:element type="xs:string" name="university"/>
+              <xs:element name="libraryServices">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="wifi"/>
+                    <xs:element type="xs:string" name="privateRoom"/>
+                    <xs:element type="xs:string" name="afterHoursStudyRoom"/>
+                    <xs:element name="newsletter">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="email"/>
+                          <xs:element type="xs:string" name="sms"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="address">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="country"/>
+                    <xs:element type="xs:string" name="city"/>
+                    <xs:element type="xs:string" name="street"/>
+                    <xs:element type="xs:string" name="number"/>
+                    <xs:element type="xs:string" name="flat"/>
+                    <xs:element type="xs:short" name="zip"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="contactInfo">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="email" maxOccurs="3" minOccurs="1">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:string">
+                            <xs:attribute type="xs:string" name="type" use="optional"/>
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="phoneNumber" maxOccurs="unbounded" minOccurs="1">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:int">
+                            <xs:attribute type="xs:string" name="type" use="optional"/>
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="books">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="book">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="title"/>
+                          <xs:element type="xs:string" name="author"/>
+                          <xs:element type="xs:long" name="ISBN"/>
+                          <xs:element type="xs:string" name="libraryID"/>
+                          <xs:element type="xs:string" name="genre"/>
+                          <xs:element type="xs:short" name="year"/>
+                          <xs:element type="xs:string" name="publisher"/>
+                          <xs:element type="xs:string" name="language"/>
+                          <xs:element type="xs:string" name="dateOfPickUp"/>
+                          <xs:element type="xs:string" name="dateOfReturn"/>
+                          <xs:element type="xs:string" name="fee"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute type="xs:byte" name="id" use="optional"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

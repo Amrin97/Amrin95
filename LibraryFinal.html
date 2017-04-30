@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Markup Languages 2017</title>
+</head>
+<body>
+   <article>
+       <header>
+           <h1>Markup Languages 2017</h1>
+           <h2>Student Library System</h2>
+           <h3>Table of Contents</h3>
+           <ol>
+               <li><a title="Go to Introduction section" href="#introduction">Introduction</a></li>
+               <li><a title="Go to Methodology section" href="#methodology">Methodology</a></li>
+               <li><a title="Go to Work content section" href="#content">Work content</a></li>
+               <li><a title="Go to Elements section" href="#elements">Elements</a></li>
+               <li><a title="Go to Transformation section" href="#transformation">Transformation</a></li>
+               <li><a title="Go to Conclusion section" href="#conclusion">Conclusion</a></li>
+           </ol>
+       </header>
+       <br>
+       <br>
+       <h3><a id="introduction">Introduction to the Library System</a></h3>
+            <p>
+                This projct is supposed to be a model of a real life library management system for students. It contains data about library clients, their loans and services.
+            </p>
+        <br>
+        <h3><a id="methodology">Methodology. Technologies used.</a></h3>
+            <p>
+                This project was made with the following technologies:
+                </p>
+                <ul>
+                    <li>XML</li>
+                    <li>XML Schema</li>
+                    <li>HTML</li>
+                    <li>XSL</li>
+                    <li>XSLT</li>
+                </ul>
+            
+        <br>
+        <h3><a id="content">Work content. Project files.</a></h3>
+            <p>
+                This project consists of the following files:
+                </p>
+                <ol>
+                    <li><b>XML</b> File</li>
+                    <li><b>XSD</b> File</li>
+                    <li><b>XSLT</b> file</li>
+                    <li><b>HTML</b> file</li>
+                </ol>            
+        <br>
+        <h3><a id="elements">Elements of the XML</a></h3>
+            <p>
+            <b>library</b> is the root element, it contains 5 <b>customer</b> records as child elements of the <b>library</b>.
+            </p>
+            <p>Each record of <b>customer</b> has:
+                </p>
+                <section>
+                    <h4>Account data</h4>
+                        <ul>
+                            <li>Account type</li>
+                            <li>First name</li>
+                            <li>Last name</li>
+                            <li>Age</li>
+                            <li>Library ID</li>
+                            <li>etc.</li>
+                        </ul>
+                </section>
+                <section>
+                    <h4>Contact data</h4>
+                        <ul>
+                            <li>Phone</li>
+                            <li>Email</li>
+                            <li>Address</li>
+                            <li>etc.</li>
+                        </ul>
+                </section>
+                <section>
+                    <h4>Book borrowed</h4>
+                        <ul>
+                            <li>Title</li>
+                            <li>Author</li>
+                            <li>ISBN</li>
+                            <li>Year</li>
+                            <li>Publisher</li>
+                            <li>etc.</li>
+                        </ul>
+                </section>
+                <section>
+                    <h4>Detailed library account information</h4>
+                        <ul>
+                            <li>Type</li>
+                            <li>Discount</li>
+                            <li>Books</li>
+                            <li>etc.</li>
+                        </ul>
+                </section>
+                <section>
+                    <h4>Extra library services</h4>
+                        <ul>
+                            <li>afterHoursStudyRoom</li>
+                            <li>wifi</li>
+                            <li>newsletter</li>
+                            <li>sms</li>
+                            <li>etc.</li>
+                        </ul>
+                </section>
+            
+        <br>
+        <h3><a id="transformation">HTML table Transformation</a></h3>
+            <p>
+                XSLT has been used for this transformation of XML to an HTML table with customers.
+            </p>
+            <p>
+                Records are sorted by first name. Clients older than 18 are highlighted with green color. Those who don't have a discount are highlighted with red color.
+            </p>
+                <section>
+                    <table border="1">
+                         <tr bgcolor="#EAEAEA">
+                            <th>First name</th>
+                            <th>Last name</th>
+                            <th>Account Type</th>
+                            <th>Age</th>
+                            <th>Discount</th>
+                         </tr>
+                         <tr>
+                            <td>Bakar</td>
+                            <td>Alexander</td>
+                            <td>Reduced</td>
+                            <td style="background-color:#05FC8C">20</td>
+                            <td>10</td>
+                         </tr>
+                         <tr>
+                            <td>Lika</td>
+                            <td>Angela</td>
+                            <td>Research</td>
+                            <td style="background-color:#05FC8C">22</td>
+                            <td>5</td>
+                         </tr>
+                         <tr>
+                            <td>Bond</td>
+                            <td>James</td>
+                            <td>Research</td>
+                            <td>17</td>
+                            <td>30</td>
+                         </tr>
+                         <tr>
+                            <td>Bek</td>
+                            <td>Rustam</td>
+                            <td>Regular</td>
+                            <td style="background-color:#05FC8C">26</td>
+                            <td style="background-color:#BA4848">0</td>
+                         </tr>
+                         <tr>
+                            <td>Dima</td>
+                            <td>Vadim</td>
+                            <td>Regular</td>
+                            <td style="background-color:#05FC8C">28</td>
+                            <td style="background-color:#BA4848">0</td>
+                         </tr>
+                      </table>
+                </section>
+        <br>
+        <h3><a id="conclusion">Conclusion</a></h3>
+            <p>
+                This XML based project shows a possible model of a system for managing a student library. With further extra features and technologies it can be implemented to a fully working system whcih can be integrated to a real library.</p>
+   </article>
+   <br>
+   <br>
+   <br>
+   <footer>
+       <p>
+            Made by Arman Amrin. CULS, 2017.
+       </p>
+   </footer>
+</body>
+</html>
